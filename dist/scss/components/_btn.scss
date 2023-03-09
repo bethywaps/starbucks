@@ -1,0 +1,43 @@
+// .btn{
+//     background-color: $clr-primary;
+//     color: $clr-light;
+//     &__primary{
+//         padding: 1.5rem 7rem;
+//     }
+//     &__primary__small{
+//         padding: 1rem 7rem;
+//     }
+//     &:hover{
+//         background-color: $clr-blue;
+//     }
+// }
+// .btn2{
+//     background-color: $clr-light;
+//     color: $clr-dark;
+//     border-radius: .5rem;
+//     padding: .3rem .5rem;
+// }
+
+
+
+.btn{
+    padding: .7rem 1.6rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    &__outline__light{
+        color: $clr-light;
+        border: 1px solid $clr-light;
+        &:hover{
+            background-color: #ffffff2f;
+        }
+
+    }
+    &__primary__outline{
+        color: $clr-secondary;
+        box-flex-group: transparent;
+        border: 1px solid $clr-primary;
+        &:hover{
+            background-color: #ffffff2f;
+        }
+    }
+}

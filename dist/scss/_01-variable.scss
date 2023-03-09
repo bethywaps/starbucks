@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
+
+$clr-primary: #006241;
+$clr-blue: #0059a1;
+$clr-secondary:#1E3932;
+$clr-primary-light: #D4E9E2;
+$clr-light: #FFFFFf;
+$clr-dark: #2C2C32;
+
+// $clr-primary: #006241;
+// $clr-secondary: #1E3932;
+// $clr-primary-light: ;
+// $clr-light: #FFFFFf;
+// $clr-dark: #2C2C32;
+
+
+
+
+
+
+
+
+
+$ff-primary: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+$ff-secondary: "Arial", helvetica sans-serif;
+
+$breakpoints: (
+  "xs": 0,
+  "sm": 50rem,
+  "md": 644px,
+  "lg": 96rem,
+  "xl": 120rem,
+);
+
+$mobile: 500px;
+$tablet: 644px;
+$desktop: 97rem;
+
+$grid-cols: 12;
+$grid-gap: 1rem;
+
+$shadow: 2px 2px 12px 2px rgba(0,0,0,0.06);
+
